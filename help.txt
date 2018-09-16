@@ -1,0 +1,207 @@
+be name khoda 
+emruz 24 shahrivar 1397
+
+Film amoozeshie sakhte yek proje sample jsp va etesal be MySQl
+
+be dasture mohandes shayesteh
+
+
+
+
+------------------------------------------------------------------------------------------
+
+
+1-install xamp
+
+
+baraye in kar ebteda file setup marbut be xamp ro az site haye tarjihan farsi download mikonim va sepas nasbesh mikonim.
+behtarin site www.p30download.com hast ta be in lahze.
+
+file marbute ro download va nasb mikonim.
+bande chon 1 bar download va nasb kardam in kar ro mojaddad anjam nemidam.
+zamani ke nasb kardid ba in safhe ruberu mishid.
+
+
+Apache
+MySQl
+Tomcat
+
+a break please.
+
+
+keep going.
+
+
+
+
+dar inja ma faghat ba Apache MySQl v  Tomcat kar darim
+
+Apache va Tomcat Server ro Shabih sazi mikone baraye java
+MySql ham database shoma ro miare bala ruye porti ke shoma migid behesh ke neshun midam khedmatetun.
+
+
+
+DataBase : 
+
+
+
+database jaii hast ke shoma mitunid yekseri jadval besazid va dade hatun ro dakhelesh negah darid.
+masalan : 
+
+table Person
+table Logs
+table .....
+
+
+
+
+Apache: 
+
+Loftan port apache ro ruye 8181 set konid ta baTomcat tadakholi Peyda nakone.
+
+Listen 8181  -----> important!!!!
+
+
+sepas Apache ro start konid
+hamchenin MySql
+va Tomcat ro 
+
+
+end
+
+
+
+
+
+
+DataBase : 
+
+
+khob
+
+
+ebteda varede panel mysql mishin ta database marbut be barname ro besazim
+
+barname ma felan ba yek table kare khodesh ro start mizane
+
+table ii be name person ba in filed ha:
+
+1-id  int    not null      
+2-username nvarchar ya varchar   null    
+3-password  varchar     null    
+4-active  boolean ya bool    null 
+
+
+mirin ke table ro dar mysql besazim---> 
+
+
+ebteda database ro misazim
+table marbute ro misazim
+
+
+
+dade template darun table ezafe minamaiim
+
+dade testi
+
+username : admin
+password : admin
+
+active agar 1 bashad yani karbar fa al ast va agar 0 bashad yani deactive ya gheyre fa al mibashad.
+
+va database ma ruye localhost mibashad va ba karbare root vared shode iim
+
+ma ta inja db ro sakhtim 
+hala mikhaym berim tu barname db ro be app vasl konim va az in dade ha estefade konim
+
+
+end of this part --->
+
+
+Create App : 
+
+varede NetBeans mishim va yek web app misazim dar java web
+
+
+ma chon ghablan yekbar in ro register kardim behemun khata mide
+
+ama shoma agar gozine Apache Tomcat or TomEE ro nadashtid varede Add beshid
+ruye apache click konid
+
+dar partition C pushe xamp
+pushe tomcat
+
+c:\xapm\Tomcat
+
+
+in address ro dar dakhele textbox bezanid
+
+sepas finish ya na next
+
+
+file hayii ke mibinid marbut be tarahie safahat hast
+
+
+khob
+
+ta inja
+
+ma yek app sakhtim
+az noe java web va engine jsp
+
+hala mikhaym jsp ro be mysql motasel konim ke dar har bar request bere samte database chyeck kone bebine ini ke mikhad login kone dar database vojud dare ya na
+
+2 library ro add konid : 
+
+avali baraye etesale mysql va 2vomi baraye etesal be oracle mibashad
+ke ma inja ba mysql kar mikonim
+
+
+end of this part--->
+
+
+action be in mana ast ke agar in form submit shod dade ha beche file ii ersal shavand.
+va kar haye server side ruye dade ha anjam shavad 
+
+
+validate.jsp ro khodemun bayad besazim va java tush benevisim
+
+user = a@b.com
+pass = 123456
+
+
+in user va pass dar db ma nist pas in ro barmigardune 
+
+
+be in mani ast ke rafte select zade va user ro peyda karde va hamechi ok hast!!!
+
+file ha va video ha dar ghalebe file zip ersal mishavand
+
+movafagh va piruz bashid :-)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
